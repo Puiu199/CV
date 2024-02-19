@@ -1,0 +1,101 @@
+body {
+    font-family: Vollkorn;
+    background: #E0E0E0;
+}
+
+.title h1 {
+    color: #45577B;
+
+
+}
+
+.title h3 {
+    color: #f55d2f;
+}
+
+.social_media {
+
+    display: flex;
+}
+
+.social_media a {
+    display: block;
+    width: 35px;
+    border: none;
+    height: 35px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 5px;
+}
+
+#link {
+    background-image: url(./img/Vector.png);
+
+}
+
+#gitHub {
+    background-image: url(./img/github-icon.svg);
+}
+
+#gitLab {
+    background-image: url(./img/gitLab.svg);
+
+}
+
+.img {
+    width: 350px;
+    height: 500px;
+    border-radius: 25px;
+    background-image: url(./img/MyImg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#skils {
+    margin-top: 100px;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+}
+
+#skils>div {
+    height: 350px;
+    border: 0.1px solid black;
+    border-top: none;
+    border-radius: 25px;
+    background-color: #dbd5d5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#skils>div span {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#skils>div b {
+    align-self: center;
+    margin-top: 25px;
+}
+
+#front-end>span {
+
+    background-image: url(./img/front-end.png);
+}
+
+#back-end>span {
+    background-image: url(./img/back.png);
+}
+
+#ui-ux>span {
+    background-image: url(./img/ui.png);
+}
