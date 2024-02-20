@@ -2,6 +2,9 @@ body {
     font-family: Vollkorn;
     background: #E0E0E0;
     color: #45577B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .title {
