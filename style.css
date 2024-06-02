@@ -184,7 +184,7 @@ a:hover {
 
 #skils ul li:hover>ul {
     border: 1px solid black;
-
+    margin-right: 10px;
     display: initial !important;
 }
 
